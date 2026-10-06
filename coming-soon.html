@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Coming Soon — Project</title>
+    <link rel="stylesheet" href="assets/newcss.css" />
+    <style>
+      :root { --card-width: 520px; }
+      body { display:flex; align-items:center; justify-content:center; min-height:100vh; background:var(--body-color); color:var(--title-color); font-family:var(--body-font); }
+      .card { width:var(--card-width); background:var(--container-color); border-radius:1rem; padding:2rem; text-align:center; box-shadow:0 20px 50px rgba(0,0,0,0.08); }
+      .gif-wrap { width:100%; border-radius:0.75rem; overflow:hidden; box-shadow:0 14px 40px rgba(0,0,0,0.12); transition:transform .28s ease, box-shadow .28s ease; }
+      .gif-wrap:hover { transform:translateY(-8px); box-shadow:0 28px 60px rgba(0,0,0,0.18); }
+      .gif { width:100%; display:block; }
+      .title { font-size:1.5rem; margin:1rem 0 .5rem; }
+      .subtitle { color:var(--text-color); margin-bottom:1rem; }
+      .actions { display:flex; gap:1rem; justify-content:center; margin-top:1rem; }
+      .btn { padding:.6rem 1rem; border-radius:.6rem; text-decoration:none; font-weight:600; }
+      .btn--home { background:transparent; border:1px solid var(--first-color); color:var(--first-color); }
+      .btn--notify { background:linear-gradient(90deg,var(--accent-warm),var(--first-color)); color:#fff; }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="gif-wrap">
+        <img class="gif" src="assets/gif.gif" alt="Coming soon animated" />
+      </div>
+      <h1 class="title">Oops — not deployed yet</h1>
+      <p id="message" class="subtitle">This project is in the workshop. Come back soon — or explore other parts of the site.</p>
+      <div class="actions">
+        <a class="btn btn--home" href="index.html">Back to Home</a>
+      </div>
+    </div>
+    <script>
+      // If the original link was passed as ?src=..., show it in the message
+      (function(){
+        try {
+          const params = new URLSearchParams(window.location.search);
+          const src = params.get('src');
+          if (src) {
+            const msg = document.getElementById('message');
+            const short = src.replace(/^https?:\/\//,'');
+            msg.innerHTML = `We noticed a request for <strong>${short}</strong>. That link points to the project's repo; the live site hasn't been deployed yet. We'll get it online soon!`;
+          }
+        } catch (e) { /* ignore */ }
+      })();
+    </script>
+  </body>
+</html>

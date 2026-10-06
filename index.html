@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="assets/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/newcss.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+  </head>
+
+  <body oncontextmenu="return false">
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">karthikeya</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link">
+                <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>Projects
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>Contact-Me
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- main-->
+
+    <main class="main">
+      <!--========================= Home =====================-->
+
+      <section class="home section hero" id="home" aria-labelledby="hero-title">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <h1 id="hero-title" class="hero__title">Hi, I'm <span class="name-highlight">Karthikeya senapathi</span></h1>
+            <p class="hero__subtitle" id="typing-text"></p>
+            <p class="hero__description">
+              A dedicated developer and student at <strong>GMR Institute of Technology</strong>, driven by curiosity to explore technology and innovation. Currently honing skills in full-stack development to build impactful digital solutions.
+            </p>
+            <div class="hero__actions" role="group" aria-label="Primary actions">
+              <a class="button button--flex" href="#contact">Let’s Connect <i class="uil uil-message button__icon"></i></a>
+              <a class="button button--flex button--outline" href="#portfolio">View My Work <i class="uil uil-scenery button__icon"></i></a>
+            </div>
+            <ul class="social" aria-label="Social links">
+              <li>
+                <a class="social__link" href="https://www.linkedin.com/in/karthikeya-senapathi" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5c0 1.38-1.11 2.5-2.48 2.5A2.49 2.49 0 0 1 0 3.5C0 2.12 1.11 1 2.5 1S5 2.12 5 3.5zM.5 8h4V23h-4V8zM8 8h3.8v2.05h.05c.53-1 1.82-2.05 3.75-2.05 4.01 0 4.75 2.64 4.75 6.08V23h-4v-5.9c0-1.41-.02-3.22-1.96-3.22-1.96 0-2.26 1.53-2.26 3.12V23H8V8z"/></svg>
+                </a>
+              </li>
+              <li>
+                <a class="social__link" href="https://github.com/mikasaa673" target="_blank" rel="noreferrer noopener" aria-label="GitHub">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.41-1.35-1.79-1.35-1.79-1.1-.75.08-.74.08-.74 1.22.09 1.86 1.25 1.86 1.25 1.08 1.85 2.82 1.32 3.51 1.01.11-.8.42-1.32.76-1.62-2.67-.31-5.47-1.34-5.47-5.97 0-1.32.47-2.39 1.24-3.24-.12-.3-.54-1.54.12-3.2 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.66.24 2.9.12 3.2.77.85 1.24 1.92 1.24 3.24 0 4.64-2.8 5.66-5.48 5.97.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.82.58A12 12 0 0 0 12 .5Z"/></svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!--======================= About========================-->
+
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">Who I Am</span>
+
+        <div class="about__container container">
+          <div class="about__grid">
+            
+
+            <div class="about__content-column">
+              <div class="about__content">
+                <h2 class="about__tagline">Code, Create, Repeat.</h2>
+                <p class="about__description">
+I’m a Final-year Artificial Intelligence and Data Science student with a strong interest in web development. I love crafting dynamic and user-friendly websites that bring ideas to life through clean design and efficient code.
+
+I enjoy building things, breaking them, figuring out why they broke, and somehow making them work again. I’m always experimenting with new technologies, learning along the way, and looking for interesting problems to solve.
+                </p>
+                
+                <div class="about__highlights">
+                  <div class="highlight__card">
+                    <i class="fas fa-code highlight__icon"></i>
+                    <h4>Full Stack Development</h4>
+                    <p>Building end-to-end web solutions with modern technologies</p>
+                  </div>
+                  <div class="highlight__card">
+                    <i class="fas fa-brain highlight__icon"></i>
+                    <h4>Tech Explorer</h4>
+                    <p>Constantly experimenting with new tools, APIs, and frameworks to build better projects</p>
+                  </div>
+                  <div class="highlight__card">
+                    <i class="fas fa-users highlight__icon"></i>
+                    <h4>Team Player</h4>
+                    <p>Works well in collaborative environments, sharing ideas and helping teams achieve goals</p>
+                  </div>
+                </div>
+
+                <div class="about__stats">
+                  <div class="stat__item">
+                    <div class="stat__number">9.32</div>
+                    <div class="stat__label">CGPA</div>
+                  </div>
+                  <div class="stat__item">
+                    <div class="stat__number">5+</div>
+                    <div class="stat__label">Projects Completed</div>
+                  </div>
+                  <div class="stat__item">
+                    <div class="stat__number">03+</div>
+                    <div class="stat__label">Hackathons</div>
+                  </div>
+                </div>
+
+                <div class="about__cta">
+                  <a href="https://drive.google.com/file/d/1LOSwql_9I8Uy4qnaEZChp7azWKtlVtwQ/view?usp=sharing" class="button button--flex" target="_blank" rel="noopener noreferrer">
+                    Download resume <i class="fas fa-download button__icon"></i>
+                  </a>
+                  <a href="#skills" class="button button--flex button--outline">
+                    View Skills <i class="fas fa-arrow-right button__icon"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===================== SKILLS =====================-->
+
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My technical level</span>
+
+        <div class="skills__container container grid">
+          <!-- Programming Languages -->
+          <div class="skills__content skills__open">
+            <div class="skills__header">
+              <i class="fas fa-pencil-ruler skills__icon"></i>
+              <div>
+                <h3 class="skills__title">Programming Languages</h3>
+              </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+              <div class="skills__data"><div class="skills__titles"><h4 class="skills__name">Python</h4></div></div>
+              <div class="skills__data"><div class="skills__titles"><h4 class="skills__name">C</h4></div></div>
+              <div class="skills__data"><div class="skills__titles"><h4 class="skills__name">Java</h4></div></div>
+              <div class="skills__data"><div class="skills__titles"><h4 class="skills__name">JavaScript</h4></div></div>
+              <div class="skills__data"><div class="skills__titles"><h4 class="skills__name">SQL</h4></div></div>
+            </div>
+          </div>
+
+          <!-- Technologies -->
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="fas fa-swatchbook skills__icon"></i>
+              <div>
+                <h3 class="skills__title">Technologies</h3>
+              </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+              <div class="skills__data"><div class="skills__titles"><h4 class="skills__name">Git</h4></div></div>
+              <div class="skills__data"><div class="skills__titles"><h4 class="skills__name">AWS</h4></div></div>
+              <div class="skills__data"><div class="skills__titles"><h4 class="skills__name">Linux</h4></div></div>
+              <div class="skills__data"><div class="skills__titles"><h4 class="skills__name">MySQL</h4></div></div>
+              <div class="skills__data"><div class="skills__titles"><h4 class="skills__name">Terraform</h4></div></div>
+              <div class="skills__data"><div class="skills__titles"><h4 class="skills__name">Jenkins</h4></div></div>
+              <div class="skills__data"><div class="skills__titles"><h4 class="skills__name">Docker</h4></div></div>
+            </div>
+          </div>
+
+          <!-- IT Constructs -->
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="fas fa-code skills__icon"></i>
+              <div>
+                <h3 class="skills__title">IT Concepts</h3>
+              </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+              <div class="skills__data"><div class="skills__titles"><h4 class="skills__name">DBMS</h4></div></div>
+              <div class="skills__data"><div class="skills__titles"><h4 class="skills__name">DS &amp; Algorithms</h4></div></div>
+              <div class="skills__data"><div class="skills__titles"><h4 class="skills__name">OOP</h4></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== Qualifications ==================-->
+
+ <section class="qualification__section" id="qualification">
+  <h2 class="section__title">Qualifications</h2>
+  <span class="section__subtitle">My Personal Journey</span>
+
+  <div class="qualification__container container">
+    <div class="qualification__tabs">
+      <div
+        class="qualification__button button--flex qualification__active"
+        data-target="#education"
+      >
+        <i class="uil uil-graduation-cap qualification__icon"></i>
+        Education
+      </div>
+    </div>
+
+    <div class="qualification__sections" data-content id="education">
+      <!--====== Qualification 1 ======-->
+      <div class="qualification__data">
+        <div>
+          <h3 class="qualification__title">SSC</h3>
+          <span class="qualification__subtitle">Sri Chaitanya Techno School</span>
+          <div class="qualification__calender">
+            <i class="uil uil-calendar-alt"></i> 2020
+          </div>
+          <p class="qualification__description">
+            Completed Secondary School Certificate with focus on Science, Maths, English,
+            Social Studies, Telugu, and Hindi. Scored <strong>99.8%</strong>.
+          </p>
+        </div>
+        <span class="qualification__rounder"></span>
+      </div>
+
+      <!--====== Qualification 2 ======-->
+      <div class="qualification__data">
+        <div>
+          <h3 class="qualification__title">Class 12th</h3>
+          <span class="qualification__subtitle">Sri Chaitanya Jr College</span>
+          <div class="qualification__calender">
+            <i class="uil uil-calendar-alt"></i> 2022
+          </div>
+          <p class="qualification__description">
+            Completed Intermediate (MPC) with Physics, Chemistry, Maths, English. Scored <strong>92.3%</strong>.
+          </p>
+        </div>
+        <span class="qualification__rounder"></span>
+      </div>
+
+      <!--====== Qualification 3 ======-->
+      <div class="qualification__data">
+        <div>
+          <h3 class="qualification__title">College</h3>
+          <span class="qualification__subtitle">GMR Institute of Technology, Rajam</span>
+          <div class="qualification__calender">
+            <i class="uil uil-calendar-alt"></i> 2022 – 2026
+          </div>
+          <p class="qualification__description">
+            Graduated in Computer science specialising in AI and data science. Studied DSA, DBMS,
+            Algorithms, Operating Systems, and Computer Architecture.
+             CGPA: <strong>9.32</strong>.
+          </p>
+        </div>
+        <span class="qualification__rounder"></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+      <!--=================== Portfolio ===================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Projects</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!-- ------------------------project 1-------------------- -->
+            <div class="portfolio__content grid swiper-slide">
+              <div class="portfolio__img-wrapper">
+                <img src="assets/img/home.png" class="portfolio__img" alt="Smart Parking Availability System Screenshot" />
+                </div>
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Smart Parking Availability System</h3>
+                <p class="portfolio__description">
+                  Smart Parking Availability System is a real-time parking management application that uses computer vision to detect parking slot occupancy. It provides slot reservations, QR-based verification, email notifications, overstay detection, and occupancy forecasting through a Flask web application with MySQL integration.
+                </p>
+                <a
+                  href="https://github.com/mikasaa673/smart_park"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                <a
+                  href="coming-soon.html"
+                  class="button button--flex button--small portfolio__button button--live"
+                >
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- ------------------------project 2-------------------- -->
+            <div class="portfolio__content grid swiper-slide">
+              <div class="portfolio__img-wrapper">
+                <img src="assets/img/image3.png" class="portfolio__img" alt="Talk2Fill Banking App Screenshot" />
+              </div>
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+                  Talk2Fill: Simplifying Banking 
+                </h3>
+                <p class="portfolio__description">
+Talk2Fill is a voice-based form-filling web application that simplifies data entry using speech recognition.
+Built with HTML, CSS, and JavaScript, it allows users to fill out forms hands-free by speaking their responses.
+It supports multiple input fields like name, email, and address with real-time voice-to-text conversion.
+The project enhances accessibility and provides a faster, more intuitive way to complete forms.
+                  </p>
+                <a
+                  href="https://github.com/mikasaa673/Talk2Fill-Voice-based-bankform-filling"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                <a
+                  href="https://talk2fill.onrender.com/"
+                  class="button button--flex button--small portfolio__button button--live"
+                >
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- ------------------------project 3-------------------- -->
+
+            <div class="portfolio__content grid swiper-slide">
+              <div class="portfolio__img-wrapper">
+                <img src="assets/img/image.png" class="portfolio__img" alt="YouTube Audio Downloader Screenshot" />
+              </div>
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">
+                      YouTube Audio Downloader
+                </h3>
+                <p class="portfolio__description">
+                  YouTube Audio Downloader is a Flask-based web app that lets users download YouTube videos as high-quality MP3 files.
+                  Built with Flask and yt-dlp, it features a modern, responsive interface with dark/light mode support.
+                  The app ensures fast downloads, automatic file organization, and smooth performance for a seamless user experience.
+                  
+                </p>
+                <a
+                  href="https://github.com/mikasaa673/YouTube-Audio-Downloader"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                <a
+                  href="coming-soon.html"
+                  class="button button--flex button--small portfolio__button button--live"
+                >
+                  See Live
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- ------------------------project 4-------------------- -->
+            <div class="portfolio__content grid swiper-slide">
+              <div class="portfolio__img-wrapper">
+                <img src="assets/img/image2.png" class="portfolio__img" alt="Currency Converter Screenshot" />
+              </div>
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Live Currency Converter</h3>
+                <p class="portfolio__description">
+                  Live Currency Converter is a real-time web app that lets users instantly convert between global currencies using live exchange rates.
+Built with HTML, CSS, and JavaScript, it features a modern, responsive design with country flags and one-click currency swapping.
+The project provides an intuitive, mobile-friendly interface for quick and accurate currency conversions.
+
+                </p>
+                <a
+                  href="https://github.com/mikasaa673/Currency-converter"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- ------------------------project 5-------------------- -->
+            <div class="portfolio__content grid swiper-slide">
+              <div class="portfolio__img-wrapper">
+                <img src="assets/img/image4.png" class="portfolio__img" alt="Tic-Tac-Toe Game Screenshot" />
+              </div>
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Tic-Tac-Toe Game</h3>
+                <p class="portfolio__description">
+                 A simple interactive Tic Tac Toe game built using HTML, CSS, and JavaScript.
+It allows two players to take turns marking X and O on a 3x3 grid.
+The game detects wins, draws, and offers a clean, responsive interface.
+                </p>
+                <a
+                  href="https://github.com/mikasaa673/Tic-Tac-Toe"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  GitHub Repository
+                  <i class="uil uil-external-link-alt button__icon"></i>
+                </a>
+                <a
+                  href="https://mikasaa673.github.io/Tic-Tac-Toe"                >
+                </a>
+              </div>
+            </div>
+            
+          </div>
+
+          <!-- add arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <!-- add pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--===================== Contact Me =====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-calling contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Contact Me</h3>
+                <span class="contact__subtitle"><a href="tel:8074364020">8074364020</a></span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope-minus contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="contact__subtitle"
+                  >karthik123.spati@gmail.com</span
+                >
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle"
+                  >Srikakulam, Andhra pradesh, India</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <form action="" class="contact__form grid" id="contact-form">
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="contact-name" class="content__label">Name</label>
+                <input type="text" id="contact-name" class="contact__input" />
+              </div>
+
+              <div class="contact__content">
+                <label for="contact-email" class="content__label">Email</label>
+                <input type="email" id="contact-email" class="contact__input" />
+              </div>
+            </div>
+
+            <div class="contact__content">
+              <label for="contact-message" class="content__label">Message</label>
+              <textarea
+                name=""
+                id="contact-message"
+                cols="0"
+                rows="7"
+                class="contact__input"
+              ></textarea>
+            </div>
+
+            <div>
+              <a
+                href="#"
+                id="contact-submit"
+                class="button button--flex"
+              >
+                Send Message
+                <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--================== Footer ===============-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">karthikeya senapathi</h1>
+            <span class="footer__subtitle"
+              >Artificial intelligence and Data science Engineering Student</span
+            >
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#qualification" class="footer__link">Qualification</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Contact-Me</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a
+              href="https://www.linkedin.com/in/karthikeya-senapathi"
+              class="footer__social"
+              target="__blank"
+              aria-label="LinkedIn"
+            >
+            <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a
+              href="https://github.com/mikasaa673"
+              target="__blank"
+              class="footer__social"
+              aria-label="GitHub"
+            >
+            <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__copy">&#169; karthikeya All right reserved</p>
+      </div>
+    </footer>
+
+    <!--================== SCROLL TOP ==================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <script type="text/javascript" src="assets/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
+    <script src="assets/ptj.js"></script>
+  </body>
+</html>
